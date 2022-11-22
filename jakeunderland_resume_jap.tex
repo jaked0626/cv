@@ -1,0 +1,218 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+%\RequirePackage{plautopatch}
+\documentclass[uplatex,dvipdfmx,a4paper,11pt]{jsarticle}
+%\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+\usepackage[normalem]{ulem}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{アンダーランド　ジェイク} \\
+Underland, Jake\\[7.5pt]
+\href{https://github.com/jaked0626}{\raisebox{-0.05\height}\faGithub\ jaked0626} \ $|$ \ 
+\href{https://linkedin.com/in/jake-underland-720126201/}{\raisebox{-0.05\height}\faLinkedin\ Jake Underland} \ $|$ \ 
+%\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
+\href{mailto:jaked0626@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ jaked0626@gmail.com} \ $|$ \ 
+\href{tel:+819014618440}{\raisebox{-0.05\height}\faPhone \ 090.1461.8440} \\
+\faTenge{ 204-0003 東京都清瀬市中里 5-629-1}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{学歴 - Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+2019 - 2023 & \uline{早稲田大学}　政治経済学部国際政治経済学科 \hfill \normalsize (GPA: 3.7/4.0) \\
+&  \href{https://tadaohoshino.wordpress.com/}{星野匡郎}ゼミで機械学習理論，\href{https://waseda.pure.elsevier.com/en/persons/hisatoshi-tanaka}{田中久俊}ゼミで計量経済理論を研究．\\
+& 活動: \href{http://www2.cie-waseda.jp/glfp/jp/about/program.html}{グローバルリーダーシッププログラム}，\href{https://gdsc.community.dev/waseda-university/}{Google Student Club バックエンドリーダー}，計量経済学RA\\
+2020 - 2021 & \uline{シカゴ大学}　交換留学 \hfill (GPA: 3.93/4.0) \\
+& 活動: 公共経済学RA，教育経済学RA
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+%\section{Summary}
+%This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+
+%Experience
+\section{職歴 - Work Experience}
+
+{\bf \href{https://www.optimind.tech/}{Optimind Inc.}} { - アルゴリズムデベロッパー} \hfill {2022年4月--2022年11月} 
+\\- ルート最適化サービス\href{https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028}{Loogia}のアルゴリズム開発
+\\- ダイクストラ法，モンテカルロシミュレーションに基づく多点間ルーティング，機械学習パイプラインによるドライバーの選好学習などをc++, Python, Julia, GCP, AWSで実装
+
+{ \bf\textcolor{blue(pigment)}{早稲田大学政治経済学部}} { - リサーチアシスタント} \hfill {2022年2月--2022年8月} 
+\\- 開発途上国における電力使用のデータ分析．Rで線形モデル，IVモデル，GMMを活用した動学構造推定
+
+{\bf\textcolor{blue(pigment)}{日本銀行}}{ - IT 夏季インターン} \hfill { 2021年８月} 
+
+{\bf \href{https://www.morganstanley.co.jp/ja}{モルガン・スタンレーMUFG証券}}{ - IT 夏季インターン} \hfill {2021年８月} 
+\\- 社内アプリのログを監視し，システムの異常を検知するツールをPython, FastAPI, DataDogで作成
+
+{ \bf\href{https://gdsc.community.dev/waseda-university/}{Google Student Club}} { - Backend チームリーダー} \hfill {2021年6月--2022年6月} 
+\\- 日本で最大のGoogle学生組織である早稲田大学でバックエンドチームをリード
+\\- ソフトウェアを競う大会 Solution Challenge で世界トップ50入り．
+
+{\bf \href{https://createbase.work/}{CreateBase}} { - フルスタックデベロッパー} \hfill {2021年6月--2022年4月} 
+\\- PHPとLaravel, Pythonを使ったウェブアプリ開発; ECデータのクローリング，分析，可視化
+\\- c++とOpenCVの画像認識ライブラリを使った勤怠記録システムのインフラ設計
+\\- Pythonで強化学習による資料配分の最適化プログラムを単独実装
+
+%Projects
+% \section{作品 - Projects}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%\section{Publications}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{スキル - Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+言語: \ & 日本語 (ネイティブ), 英語 (ネイティブ) \\
+プログラミング: \ & Python, Golang, Javascript, Postgres SQL, C++, R, Matlab, PHP \\
+& Django, FastAPI, Gin, React.js, Next.js, Laravel \\
+& Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost \\
+& Docker, AWS, GCP
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATES
+%----------------------------------------------------------------------------------------
+\section{資格等 - Certificates}
+- 日本統計学検定３級, 最優秀賞, 2019 \\
+- 早稲田大学新井孝晋奨学金
+
+\vfill
+\center{\footnotesize 最終更新日: \today}
+
+\end{document}
