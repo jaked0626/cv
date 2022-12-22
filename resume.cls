@@ -14,6 +14,8 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
+% MUST USE pdflatexmk FOR HYPERLINKS TO WORK
+
 \LoadClass[11pt,a4paper]{article}
 
 \usepackage[parfill]{parskip}       % Do not indent paragraphs
