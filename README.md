@@ -9,7 +9,7 @@ Find the markdown version here:
 
 ---
 
-**Education**
+## Education
 
 **Waseda University - School of Political Science and Economics** (GPA 3.7/4.0)  
 - Global Leadership Fellows' Program fellow; Advisors: [Tadao Hoshino](https://tadaohoshino.wordpress.com/), [Hisatoshi Tanaka](https://waseda.pure.elsevier.com/en/persons/hisatoshi-tanaka).
@@ -19,7 +19,7 @@ Find the markdown version here:
 
 ---
 
-**Professional Experience**
+## Professional Experience 
 
 **Optimind Inc** - Algorithms Developer/Product Manager (Apr 2022 - Present)
 - Algorithms engineering for VRP route optimization program [Loogia](https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028).
@@ -38,7 +38,7 @@ Find the markdown version here:
 
 ---
 
-**Skills**
+## Skills  
 - **Languages**: Japanese (Native), English (Native)
 - **Programming Languages**: Python, Go, SQL (Postgres), C++, Javascript, PHP
 - **Frameworks**: FastAPI, Django, Gin, React.js, Next.js, Laravel
@@ -47,13 +47,13 @@ Find the markdown version here:
 
 ---
 
-**Certificates**
+## Certificates  
 - Japan Statistical Society Certificate Level 3, Best Grade, 2019
 - Waseda University Arai Takanobu Scholarship
 
 ---
 
-**Extra Curricular**
+## Extra Curricular  
 
 **Opeland** - Cofounder (Jul 2022 - Present)
 - Designed and developed backend architecture of EC system MallTomorrow using Golang, Postgresql, GCP.
