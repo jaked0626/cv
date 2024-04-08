@@ -57,7 +57,7 @@
 \RequirePackage{color}
 \RequirePackage{graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
+\usepackage[scale=0.93]{geometry}
 
 %tabularx environment
 \usepackage{tabularx}
@@ -121,7 +121,7 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{アンダーランド　ジェイク} \\
-Underland, Jake\\[7.5pt]
+Underland, Jake\\[1pt]
 \href{https://github.com/jaked0626}{\raisebox{-0.05\height}\faGithub\ jaked0626} \ $|$ \ 
 \href{https://linkedin.com/in/jake-underland-720126201/}{\raisebox{-0.05\height}\faLinkedin\ Jake Underland} \ $|$ \ 
 \href{https://jaked0626.github.io/digital-biz-card/}{\raisebox{-0.05\height}\faGlobe \ JakesBizCard.com} \ $|$ \ 
@@ -141,9 +141,10 @@ Underland, Jake\\[7.5pt]
 %Experience
 \section{職歴 - Work Experience}
 
-{\bf \href{https://www.optimind.tech/}{Optimind Inc.}} { - アルゴリズムチームエンジニア兼PdM} \hfill {2022年4月--現在} 
-\\- ルート最適化サービス\href{https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028}{Loogia}のアルゴリズムチームでPython, c++, JSで\emph{エンジン開発}，GKEとTerraformで\emph{サーバ保守}
-\\- PdMとして\textbf{バックログ・ロードマップ管理}．監視した開発例：p99の計算時間を\textbf{97％高速化}．多点間経路探索へのヒューリスティック導入の研究開発（平均計算速度\textbf{20％高速化}）．データパイプラインプロダクトの\textbf{MVP要件定義}，リリース．
+{\bf \href{https://www.optimind.tech/}{Optimind Inc.}} { - アルゴリズムチームエンジニア→PdM} \hfill {2022年4月--現在} 
+\\- ルート最適化サービス\href{https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028}{Loogia}のバックエンド開発．$n$*$n$点間の双方向A*でヒューリスティックを設計，実装し，p99のリクエストの計算時間を20\%削減．
+\\- PdMとしてアルゴリズムチームの新機能の設計，実装に従事．仮説生成，仮説検証，ユーザー価値の定量化をするためのユーザーからのフィードバックサイクル，ログやWebベースメトリクスを設け，定性と定量の両方を活用したプロダクトデザインの文化を醸成．
+\\- 対エンプラ戦略としてデータパイプラインチームの設立に立会い，チームのPdMとして要件定義からMVPの提供までサポート．
 %Customer User JourneyからSLOの定義，\textbf{SLIの実装}を先導．\textbf{インシデント対応の体制整備}．データパイプラインプロダクトのPdMとして\textbf{ミッション・ビジョンの定義}，\textbf{MVP開発}とリリースまで監督．
 %\\- 監視した開発例：p99のレスポンス計算速度（ネットワークレイテンシを除く）を\textbf{97％高速化}．多点間経路探索ダイクストラへのヒューリスティック導入の研究開発（平均計算速度\textbf{20％高速化}）．
 
@@ -153,14 +154,17 @@ Underland, Jake\\[7.5pt]
 {\bf\textcolor{blue(pigment)}{日本銀行}}{ - IT 夏季インターン} \hfill { 2021年８月} 
 
 {\bf \href{https://www.morganstanley.co.jp/ja}{モルガン・スタンレーMUFG証券}}{ - IT 夏季インターン} \hfill {2021年８月} 
-\\- 社内アプリのログを監視し，システムの異常を検知するツールをPython, FastAPI, DataDogで作成
+%\\- 社内アプリのログを監視し，システムの異常を検知するツールをPython, FastAPI, DataDogで作成
 
 { \bf\href{https://gdsc.community.dev/waseda-university/}{Google Student Club}} { - Backend チームリーダー} \hfill {2021年6月--2022年6月} 
-\\- 日本で最大のGoogle学生組織である早稲田大学でバックエンドチームをリード．Golangによるマイクロサービス開発．
-\\- ソフトウェアを競う大会 Solution Challenge で世界トップ50入り．
+\\- 日本で最大のGoogle学生組織である早稲田大学でバックエンドチームをリード．%Golangによるマイクロサービス開発．
+%\\- ソフトウェアを競う大会 Solution Challenge で世界トップ50入り．
 
 {\bf \href{https://createbase.work/}{CreateBase}} { - フルスタックデベロッパー} \hfill {2021年6月--2022年4月} 
-\\- Python, Django, BeautifulSoup, Seleniumにより，データをクロールして可視化するダッシュボードのフルスタック開発．
+\\- フルスタック開発．データをクロールし，ダッシュボ＝ド上で可視化するSaaSを提供．
+
+{ \bf\textcolor{blue(pigment)}{シカゴ大学}} { - リサーチアシスタント} \hfill {2021年1月--2021年4月} 
+\\- 州の教育政策の効果測定．
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -168,10 +172,9 @@ Underland, Jake\\[7.5pt]
 \section{学歴 - Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
 2019 - 2023 & \uline{早稲田大学}　政治経済学部国際政治経済学科 \hfill \normalsize (GPA: 3.7/4.0) \\
-&  \href{https://tadaohoshino.wordpress.com/}{星野匡郎}ゼミで機械学習理論，\href{https://waseda.pure.elsevier.com/en/persons/hisatoshi-tanaka}{田中久俊}ゼミで計量経済理論を研究．\\
+&  \href{https://tadaohoshino.wordpress.com/}{星野匡郎}ゼミで機械学習，\href{https://waseda.pure.elsevier.com/en/persons/hisatoshi-tanaka}{田中久俊}ゼミで計量経済学を研究．\\
 & 活動: \href{http://www2.cie-waseda.jp/glfp/jp/about/program.html}{グローバルリーダーシッププログラム}，\href{https://gdsc.community.dev/waseda-university/}{Google Student Club バックエンドリーダー}，計量経済学RA\\
 2020 - 2021 & \uline{シカゴ大学}　交換留学 \hfill (GPA: 3.93/4.0) \\
-& 活動: 公共経済学RA，教育経済学RA
 \end{tabularx}
 
 %Projects
@@ -197,11 +200,13 @@ Underland, Jake\\[7.5pt]
 %----------------------------------------------------------------------------------------
 \section{スキル - Skills}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-言語: \ & 日本語 (ネイティブ), 英語 (ネイティブ) \\
-プログラミング: \ & Python, Golang,  SQL (Postgres), C++, Javascript, R \\
-& FastAPI, Django, Gin, React.js, Next.js\\
-& Pandas, NumPy, Matplotlib, Sklearn \\
-& Docker, AWS, GCP
+Languages: \ & Japanese (Native), English (Native) \\
+Programming Languages: \ & Python, Go, C++, Javascript, SQL (Postgres), R \\
+%Frameworks: \ & FastAPI*, Django, Gin*, React.js*, Next.js*, Laravel \\
+%Data Science: \ & Pandas*, NumPy*, Matplotlib*, Scikit-learn*, R+Rstudio, OpenCV. \\
+Infrastructure:  \ & GCP (GKE, Cloud Run, CloudSQL, BigQuery, Dataform, Functions, \\
+\ & Compute Engine, GCS, Monitoring), Docker, \\
+\ & AWS (SQS, Lambda), Github Actions, Terraform, DataDog, Fivetran.
 \end{tabular}
 
 
@@ -211,8 +216,6 @@ Underland, Jake\\[7.5pt]
 \section{資格等 - Certificates}
 - 日本統計学検定３級, 最優秀賞, 2019 \\
 - 早稲田大学新井孝晋奨学金
-
 \vfill
 \center{\footnotesize 最終更新日: \today}
-
 \end{document}
