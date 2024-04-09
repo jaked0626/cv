@@ -15,7 +15,7 @@ Find the markdown version here:
 - Global Leadership Fellows' Program fellow; Advisors: [Tadao Hoshino](https://tadaohoshino.wordpress.com/), [Hisatoshi Tanaka](https://waseda.pure.elsevier.com/en/persons/hisatoshi-tanaka).
 
 **University of Chicago** (GPA 3.93/4.0)  
-- Public Economics RA, Educational Economics RA.
+- Studied Econometrics and Computer Science. 
 
 ---
 
@@ -23,26 +23,22 @@ Find the markdown version here:
 
 **Optimind Inc** - Algorithms Developer/Product Manager (Apr 2022 - Present)
 - Algorithms engineering for VRP route optimization program [Loogia](https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028).
-- Led two 5-people teams using scrum methodology.
+- Led two teams using agile. 
 
 **Bank of Japan** - IT Department Summer Internship (Sep 2021 - Oct 2021)
 
 **Morgan Stanley** - IT Summer Insight Program (Jul 2021 - Aug 2021)
-- Developed and deployed internal CI/CD application to monitor logs and detect anomalies.
 
 **Google Developer Student Club Waseda** - Backend Lead (Jun 2021 - Jun 2022)
 - Led the Backend Team at Japan's largest Google Developer Student Club.
 
 **CreateBase** - Full Stack Developer Intern (Jun 2021 - Apr 2022)
-- Developed web applications using PHP+Laravel, Python; crawled, analyzed, and visualized ecommerce data.
 
 ---
 
 ## Skills  
 - **Languages**: Japanese (Native), English (Native)
-- **Programming Languages**: Python, Go, SQL (Postgres), C++, Javascript, PHP
-- **Frameworks**: FastAPI, Django, Gin, React.js, Next.js, Laravel
-- **Data Science**: Pandas, NumPy, Matplotlib, Scikit-learn, R+Rstudio, OpenCV
+- **Programming Languages**: Python, Go, SQL (Postgres), C++, Javascript, R
 - **Infrastructure**: GCP (GKE, Cloud Run, CloudSQL, BigQuery, Dataform, Functions, Compute Engine, GCS, Cloud Monitoring), Docker, AWS (SQS, Amplify, Glue), Terraform, DataDog, Fivetran
 
 ---
