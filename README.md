@@ -5,7 +5,7 @@ Find the markdown version here:
 
 **Name**: Jake Underland  
 **GitHub**: [github.com/jaked0626](https://github.com/jaked0626) | **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/jake-underland-720126201/) | **Email**: jakez0626@gmail.com  
-**Address**: 5-629-1 Nakazato, Kiyose, Tokyo, JPN 204-0003 | **Phone**: (+81)90 1461 8440  
+**Address**: 6-60-8 Takinogawa, Kita, Tokyo, JPN 114-0023 | **Phone**: (+81)90 1461 8440  
 
 ---
 
@@ -23,7 +23,7 @@ Find the markdown version here:
 
 **Optimind Inc** - Algorithms Developer/Product Manager (Apr 2022 - Present)
 - Algorithms engineering for VRP route optimization program [Loogia](https://loogia.jp/?_ga=2.72237267.1726635224.1669133714-1962149220.1665458028).
-- Led two teams using agile. 
+- Product Management and Team Lead for Optimization and Geoinformatics Teams.
 
 **Bank of Japan** - IT Department Summer Internship (Sep 2021 - Oct 2021)
 
